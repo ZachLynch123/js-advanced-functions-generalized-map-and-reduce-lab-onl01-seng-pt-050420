@@ -1,2 +1,6 @@
 // Add your functions here
- function mapToNegati
+ function mapToNegativize(src) {
+   map(src, (a) => {
+     return a * -1
+   });
+ }
